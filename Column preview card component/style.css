@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Inter:wght@300&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: 20px;
+}
+
+.container {
+    border-radius: 5px;
+}
+
+.container .box {
+    color: hsla(0, 0%, 100%, 0.75);;
+    padding: 35px;
+
+    height: 270px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.container  h1 {
+    font-family: "Big Shoulders Display",sans-serif;
+    margin-top: 15px;
+}
+
+.container p {
+    font-family: "Lexend Deca",sans-serif;
+    margin-top: 15px;
+}
+
+.container .btn {
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Inter",sans-serif;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.container .btn1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.container .btn2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.container .btn3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.container .sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.container .suvs {
+    background-color: hsl(184, 100%, 22%);
+
+}
+
+.container .luxury {
+    background-color: hsl(179, 100%, 13%);
+
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        max-width: 768px;
+    }
+
+    .container .box {
+        padding: 30px;
+        height: 400px;
+    }
+
+    .container p {
+        margin-bottom: 30px;
+    }
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+
+}
