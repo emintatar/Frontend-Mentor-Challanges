@@ -1,3 +1,3 @@
 # Frontend Mentor Challanges
 
-### Challenges I completed on frontend mentor
+### Challenges I completed on Frontend Mentor
