@@ -1,3 +1,3 @@
 # Frontend Mentor Challanges
 
-### Challenges I completed on Frontend Mentor
+## This collection features my solutions to various Frontend Mentor challenges.
